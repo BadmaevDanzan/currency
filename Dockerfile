@@ -3,4 +3,4 @@ COPY . /app
 WORKDIR /app
 RUN ./gradlew build
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "build/libs/currency.jar"]
+ENTRYPOINT ["java", "-jar", "currency.jar"]
