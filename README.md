@@ -3,7 +3,7 @@
 ## Тестовое задание
 
 
-![Currency project](https://github.com/BadmaevDanzan/alphabank/blob/main/currency.gif?raw=false=700x250)
+![Currency project](https://github.com/BadmaevDanzan/currency/blob/main/currency.gif?raw=false=700x250)
 ## Задача
 
 - Создать сервис, который обращается к сервису курсов валют, и отображает gif.
