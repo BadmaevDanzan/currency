@@ -1,0 +1,67 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: RGBA(14,14,8,0.03);
+
+}
+
+.content .picture-content {
+    padding-top: 50px;
+    width: 100%;
+    height: 40%;
+}
+
+.content .picture-content iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.content .main-content {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.main-content .rate {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.content .text-content {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.content .text-content .left {
+    width: 100%;
+}
+.content .text-content .middle {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.content .text-content .right {
+    width: 100%;
+}
+
+.main-content .input-group {
+    margin-top: 20px;
+    height: 100px;
+    text-align: center
+}
