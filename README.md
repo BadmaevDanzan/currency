@@ -40,16 +40,19 @@
 
 ## API
 
+### Frontend
 
-    / 
+    http://localhost:8080/
     
 Выдает страницу index.html
 
-    /api
+### Backend
+
+    http://localhost:8080/api
 
 По стандарту добавляет к параметру currency = RUB (?currency=RUB)
 
-    /api?currency=YourRate
+    http://localhost:8080/api?currency=YourRate
 Вместо YourRate указываем значение из [списка валют](https://openexchangerates.org/api/currencies.json) в ответ приходит json:
 - currency = Валюта которую Вы указали
 - profit = Текста дохода, rich или broke (Это необходимо для фронтенда)
