@@ -50,6 +50,9 @@
     
 Выдает страницу index.html
 
+- Фронтенд обращается к [списку валют](https://openexchangerates.org/api/currencies.json), в выпадающем списке можно выбрать интересующую нас валюту.
+
+
 ### Backend
 
     http://localhost:8080/api
