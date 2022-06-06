@@ -32,6 +32,10 @@
 - [x]   Срок выполнения задания - 1 неделя
 
 ## Инструкция по запуску
+- Скачиваем с Github
+        
+        git clone https://github.com/BadmaevDanzan/currency.git
+        cd currency
 
 - Запуск через Docker (Команды)
 
