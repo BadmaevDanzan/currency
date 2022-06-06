@@ -3,7 +3,11 @@
 ## Тестовое задание
 
 
-![Currency project](https://github.com/BadmaevDanzan/currency/blob/main/currency.gif?raw=false=700x250)
+
+<p align="center">
+  <img width="600" height="450" src="https://github.com/BadmaevDanzan/currency/blob/main/currency.gif">
+</p>
+
 ## Задача
 
 - Создать сервис, который обращается к сервису курсов валют, и отображает gif.
@@ -60,6 +64,10 @@
 - yesterdayRate = Курс за вчерашний день
 - todayRate = Курс за сегодняшний день 
 
+## Ньюансы по проекту
 
+Сравнение курсов сегодняшнего и вчерашнего дня, больше или равно считается профитом (rich).
+
+        today.compareTo(yesterday) >= 0
 
 
