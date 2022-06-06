@@ -62,7 +62,7 @@
     http://localhost:8080/api?currency=YourRate
 Вместо YourRate указываем значение из [списка валют](https://openexchangerates.org/api/currencies.json) в ответ приходит json:
 - currency = Валюта которую Вы указали
-- profit = Текста дохода, rich или broke (Это необходимо для фронтенда)
+- profit = Текст дохода, rich или broke (Это необходимо для фронтенда)
 - imgUrl = Ссылка на gif с сервиса Giphy.com
 - yesterdayRate = Курс за вчерашний день
 - todayRate = Курс за сегодняшний день 
