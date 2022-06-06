@@ -8,14 +8,18 @@
   <img width="600" height="450" src="https://github.com/BadmaevDanzan/currency/blob/main/currency.gif">
 </p>
 
-## Задача
+<h2 align="center">
+Задача
+</h2>
 
 - Создать сервис, который обращается к сервису курсов валют, и отображает gif.
     - Если курс по отношению к USD за сегодня стал:
         - Выше, отдаем https://giphy.com/search/rich
         - Ниже, отдаем https://giphy.com/search/broke
 
-## Требования
+<h2 align="center">
+Требования
+</h2>
 
 ### Must have
 - [x]   Сервис на Spring Boot 2 + Java / Kotlin
@@ -31,7 +35,10 @@
 - [x]   Сборка и запуск Docker контейнера с этим сервисом
 - [x]   Срок выполнения задания - 1 неделя
 
-## Инструкция по запуску
+<h2 align="center">
+Инструкция по запуску
+</h2>
+
 - Скачиваем с Github
         
         git clone https://github.com/BadmaevDanzan/currency.git
@@ -46,7 +53,9 @@
 
         gradlew bootRun
 
-## API
+<h2 align="center">
+API
+</h2>
 
 ### Frontend
 
@@ -71,7 +80,9 @@
 - yesterdayRate = Курс за вчерашний день
 - todayRate = Курс за сегодняшний день 
 
-## Ньюансы по проекту
+<h2 align="center">
+Нюансы по проекту
+</h2>
 
 Сравнение курсов сегодняшнего и вчерашнего дня, больше или равно считается профитом (rich).
 
